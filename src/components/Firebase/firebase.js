@@ -1,9 +1,11 @@
 import firebase from 'firebase/app'
 import 'firebase/auth';
+import 'firebase/database';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAInqLgHYlwa7uqaz3vUahMHzfIDt817wM",
   authDomain: "portfolio-a2f43.firebaseapp.com",
+  databaseURL: "https://portfolio-a2f43.firebaseio.com",
   projectId: "portfolio-a2f43",
   storageBucket: "portfolio-a2f43.appspot.com",
   messagingSenderId: "169464974001",
@@ -11,9 +13,10 @@ const firebaseConfig = {
 }
 
 class Firebase {
-  constructor(){
+  constructor() {
     firebase.initializeApp(firebaseConfig);
-    this.auth=firebase.auth();
+    this.auth = firebase.auth();
+    this.db = firebase.database();
   }
 
   //Auth API//
@@ -21,7 +24,7 @@ class Firebase {
     this.auth.createUserWithEmailAndPassword(email, password);
 
   doSignInWithEmailAndPassword = (email, password) =>
-    this.auth.doSignInWithEmailAndPassword(email, password);
+    this.auth.signInWithEmailAndPassword(email, password);
 
   doSignOut = () => this.auth.signOut();
 
@@ -29,5 +32,11 @@ class Firebase {
 
   doPasswordUpdate = password =>
     this.auth.currentUser.updatePassword(password);
+
+  // *** User API ***
+
+  user = uid => this.db.ref(`users/${uid}`);
+
+  users = () => this.db.ref('users');
 }
 export default Firebase;
