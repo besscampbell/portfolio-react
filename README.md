@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# <div align="center">Practice Project: Portfolio</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <small>Last Updated: February 26th, 2021</small>
+</p>
 
-## Available Scripts
+# ℹ️ Description
 
-In the project directory, you can run:
+ Practice developing in react, implementing navigation and authentication/authorization using Firebase.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 🧑‍💻 Contributer
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+| Name | GitHub Profile |
+|------|----------------|
+| [Bess Campbelll](https://www.linkedin.com/in/bess-campbell/) | [besscampbell](https://github.com/besscampbell) |
+| Nataliya Zhuravleva | [NataliyaZhuravleva](https://github.com/NataliyaZhuravleva) |
 
-### `npm test`
+# ⚙️ Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Git/GitHub](https://github.com/)
+* [React JS](https://reactjs.org/)
+    **_This project was built with the `create-react-app` command._**
+* [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+* [Bootstrap](https://getbootstrap.com/)
+* [Node.js](https://nodejs.org/en/)
+* [npm](https://www.npmjs.com/get-npm)
+* [Babel](https://babeljs.io/)
+* [Eslint](https://eslint.org/)
+* [Webpack](https://webpack.js.org/)
+* [DrawIO](https://www.draw.io/)
 
-### `npm run build`
+# 💾 Installation Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## For Both Mac & Windows systems
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### To Clone:
+- Open your preferred command line program.
+- Navigate to the location or directory you'd like the project directory to be created in. (e.g., `cd Desktop` if you'd like to clone the project to your desktop)
+- Enter the command `$ git clone https://github.com/besscampbell/portfolio-react.git` in your command line.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### To Download:
+- Navigate to the [project repository](https://github.com/besscampbell/portfolio-react.git) in your browser.
+- Click the green "Code" button toward the top right of the page.
+- Click "Download ZIP" and extract the files.
+- Open the newly-downloaded project in your preferred code editor.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# 🖥️ Opening the Project on your Local System
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once the project has been cloned and you have all the necessary items on your local computer, open the project in the application of your choice ([Visual Code Studio](https://code.visualstudio.com/) was used and is recommended by the application builder)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Run the project:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. In the terminal type `npm install` to install the JSON package
+2. Once the install has finished  type `npm run build` into the terminal to compile the project
+3. Run `npm start` to view the site in a browser.
 
-## Learn More
+### To test:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Navigate to the `__tests__` folder in the project file tree.
+2. Run `npm test` and you see a return of which tests are passing/failing in the terminal.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# ☎️ Support / Contact Details
 
-### Code Splitting
+* [Bess Campbell](mailto:bess.k.campbell@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# ©️ License & Copyright
 
-### Analyzing the Bundle Size
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2021 *_Bess Cammpbell, Nataliya Zhuravleva_*
